@@ -24,9 +24,13 @@ function findMajority(arr , n)
     // If maxCount is greater than n/2
     // return the corresponding element
     if (maxCount > n / 2)
+	{
         console.log(arr[index]);
+	}
     else
+	{
         console.log("No Majority Element");
+	}
 }
 
 
